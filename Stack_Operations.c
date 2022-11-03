@@ -44,10 +44,11 @@ void show()
     {
         printf("Stack Underflow!\n");
     }
-    
-    for (int i = top; i >= 0; i--)
-    {
+    else{
+        for (int i = top; i >= 0; i--)
+        {
         printf("Element: %d\n", stack[i]);
+        }
     }
 }
 
